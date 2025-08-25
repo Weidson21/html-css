@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: "Abdroid";
+    src: url('');
+}
+:root{
+
+    --cor0: #c5edc6;
+    --cor01: #83e1ad;
+    --cor02: #3ddc84;
+    --cor03: #2fa866;
+    --cor04: #1a5c37;
+    --cor05: #063d1e;
+    --font-padrao: Arial, Verdana, sans-serif;
+    --font-destaque: "Poppins", sans-serif;
+}
+body{
+    background-color: var(--cor0);
+}
+header > h1{
+    color: var(--cor03);
+}
+article > h1{
+    color: var(--cor05);
+}
